@@ -1,1 +1,3 @@
 swig -Wall -I../include -java -package org.libsdl2 -outdir src/org/libsdl2 sdl2java.i
+
+gcc -ID:\software\jdk-1.8\include\win32 -ID:\software\jdk-1.8\include -ID:\mywork\projects\java\sdl2-java\include -fPIC -c sdl2java_wrap.c
