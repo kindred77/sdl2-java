@@ -1,0 +1,1 @@
+swig -Wall -I../include -java -package org.libsdl2 -outdir src/org/libsdl2 sdl2java.i
